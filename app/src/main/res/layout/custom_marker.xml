@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tool_tip"
+        android:id="@+id/imagev" />
+
+    <TextView
+        android:id="@+id/loc_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imagev"
+        android:layout_alignEnd="@+id/imagev" />
+
+    <Button
+        android:id="@+id/loc_dir_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loc_tv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/imagev"
+        android:layout_alignEnd="@+id/imagev"
+        android:text="Direction from here" />
+
+    <Button
+        android:id="@+id/loc_dir_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loc_dir_from"
+        android:layout_alignRight="@+id/imagev"
+        android:layout_alignEnd="@+id/imagev"
+        android:text="Directions to here" />
+
+
+
+
+</RelativeLayout>

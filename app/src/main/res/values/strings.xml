@@ -1,0 +1,22 @@
+<resources>
+    <string name="toolbar1">Journey Planner</string>
+    <string name="app_name">GoogleMapWithMarker</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="date_label_set">Press the button to set the date</string>
+    <string name="date_button_set">Set Date</string>
+    <string name="date_view_set">The Date is: </string>
+    <string name="date_selected"></string>
+    <string-array name="location_type_array">
+        <item>Station</item>
+        <item>Address</item>
+        <item>Postcode</item>
+        <item>Place of Interest</item>
+    </string-array>
+
+    <string-array name="travel_pref_array">
+        <item>tube</item>
+        <item>bus</item>
+    </string-array>
+</resources>
